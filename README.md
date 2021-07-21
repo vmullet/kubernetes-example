@@ -31,4 +31,9 @@ kubectl exec -it mongo-depl-5fd6b7d4b4-mznhf -- bin/bash
 # Execute a config file for deployment
 kubectl apply -f nginx-deployment.yaml
 
+# Create a secret
+kubectl apply -f mongo-secret.yaml
+
+kubectl get secret
+
 ```
