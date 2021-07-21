@@ -36,4 +36,12 @@ kubectl apply -f mongo-secret.yaml
 
 kubectl get secret
 
+# Create service
+
+kubectl get service
+
+kubectl describe service mongodb-service
+
+kubectl get pod -o wide
+
 ```
